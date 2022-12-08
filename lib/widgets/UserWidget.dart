@@ -10,7 +10,7 @@ class UserWidget extends StatelessWidget {
     return Center(
         child: Column(
       children: [
-        const Text('User Widget'),
+        const Text('User Widget '),
     Image.network(user.imageUrl),
         Text(user.firstName),
         Text(user.lastName),
